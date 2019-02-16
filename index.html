@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Food</title>
+</head>
+<body>
+    <h1>Restaurant Picker</h1>
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-sm">Enter choices here</span>
+        </div>
+        <input type="text"  id ='place' class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-md">
+        <button type="submit" id = 'entered' class="btn btn-primary">Submit</button>
+    </div>
+    <br><br><br>
+    <div id = 'container'>
+        <div id = "picked">
+            <h3>Your food establishment is...</h3>
+                <p id = 'result'></p>
+        </div>
+        <div id ='leftSide'>
+        <h3>Choices</h3>
+            <ul>
+               <span class = 'selection'></span>
+            </ul>
+        <button id = "picker">Oh great picker, pick for us!</button>
+        </div>
+        
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

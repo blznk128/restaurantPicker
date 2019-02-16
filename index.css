@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    width: 500px;
+    margin-left: 590px;
+    margin-top: 50px   
+}
+
+#picked {
+    float: right;
+    margin-right: 200px;
+}
+
+#leftSide {
+    margin-left: 200px;
+}
+
+#place {
+    height: 38px
+}
