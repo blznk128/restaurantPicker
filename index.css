@@ -1,5 +1,11 @@
+body {
+    background: url(https://cdn.cnn.com/cnnnext/dam/assets/161221152712-new-restaurants-2017-attitude-at-avani-riverside-bangkok.jpg);
+    color: yellow;
+}
+
 h1 {
     text-align: center;
+    font-size: 80px;
 }
 
 .input-group {
@@ -10,7 +16,7 @@ h1 {
 
 #picked {
     float: right;
-    margin-right: 200px;
+    margin-right: 115px;
 }
 
 #leftSide {
@@ -20,3 +26,19 @@ h1 {
 #place {
     height: 38px
 }
+
+#result {
+    text-align: center;
+    font-size: 40px;
+    color: orangered;
+}
+
+h3 {
+    font-size: 50px
+}
+
+li {
+    font-size: 40px;
+    color: orangered;
+}
+
