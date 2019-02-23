@@ -1,11 +1,11 @@
 let choices = [];
 
 $('#entered').on('click', function() {
-    event.preventDefault();
     let enter = $('#place').val().trim();
     choices.push(enter);
     $(".selection").empty()
-    $("ul").append("<li>" +  enter  + "</ul>")
+    $("ul").append("<li>" +  enter  + "</ul>");
+    $("#place").val('')
 });
 
 $("#picker").on("click", function() {
